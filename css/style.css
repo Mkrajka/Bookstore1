@@ -1,0 +1,78 @@
+/* Body Background */
+body {
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-smooth: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #111111;
+    font-weight: 400;
+    font-family: "Quantico", sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+/* Custom styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.book-card {
+    margin-bottom: 20px;
+}
+
+/* Book card styles */
+.book-card .card {
+    width: 100%; /* Ensure the card takes up the full width of the column */
+    height: 400px; /* Set a fixed height for all cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-card .card-img-top {
+    width: 100%; /* Set the image to take up the full width */
+    height: 150px; /* Set a fixed height for the image */
+    object-fit: cover; /* Cover to fill the area while preserving aspect ratio */
+}
+
+.book-card .card-body {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding doesn't affect overall size */
+}
+
+.book-card .card-title {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.book-card .card-text {
+    font-size: 0.9rem;
+}
