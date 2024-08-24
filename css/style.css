@@ -59,6 +59,7 @@ h6 {
     width: 100%; /* Set the image to take up the full width */
     height: 150px; /* Set a fixed height for the image */
     object-fit: cover; /* Cover to fill the area while preserving aspect ratio */
+    
 }
 
 .book-card .card-body {
